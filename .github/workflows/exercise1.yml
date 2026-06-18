@@ -1,0 +1,14 @@
+---
+name: Sample Workflow
+
+on:
+    push:
+        branches:
+            -main
+
+jobs:
+    learning:
+        runs-on: ubuntu-latest
+        steps:
+            -name: learning
+             run: echo My name is Kishore
