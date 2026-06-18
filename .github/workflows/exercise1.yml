@@ -4,7 +4,7 @@ name: Sample Workflow
 on:
     push:
         branches:
-            -main
+            - main
 
 jobs:
     learning:
