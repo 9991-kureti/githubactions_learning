@@ -12,5 +12,7 @@ jobs:
         steps:
             - name: learning
               run: "echo My name is Krishna Kishore"
+            - name: list env
+              run: printenv
 
               
