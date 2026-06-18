@@ -1,0 +1,13 @@
+name: dev branch learning
+
+on:
+    push:
+        branches:
+            - dev
+
+jobs:
+    learning:
+        runs-on: ubuntu-latest
+        steps:
+         - name: ping test
+           run: ping -c 4 google.com
